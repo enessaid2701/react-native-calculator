@@ -12,6 +12,8 @@ export default class login extends Component {
     state = {
         number:'',
         number2 :''
+
+        //sdbjvksdvsdvcs
     }
     changeNumber = (number) => {
         this.setState({ number: `${this.state.number}${number}` })
